@@ -14,7 +14,7 @@ def insertion_sort(words):
 
 
 def is_anagram(first_string, second_string):
-    word_1 = insertion_sort(first_string.lower()) 
+    word_1 = insertion_sort(first_string.lower())
     word_2 = insertion_sort(second_string.lower())
 
     if word_1 == "" or word_2 == "":
